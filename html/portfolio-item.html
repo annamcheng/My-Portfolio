@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>DevAnna Portfolio Website</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+            integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="crossorigin="anonymous"
+            />
+            <!-- Google Font -->
+            <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+                rel="stylesheet">
+            <link rel="stylesheet" href="/css/style.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="" alt="annas logo here">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation"><span
+                    class="hamburger"></span></button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#services" class="nav__link">My Services</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About me</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#work" class="nav__link">My Work</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">Hi, I am <strong>Anna Cheng</strong></h1>
+            <p class="section__subtitle section__subtitle--intro"><span class="upcase" > fullstack dev</span></p>
+            <img src="/img/prof1_round.gif" alt="profile 1 photo of anna" class="intro__img">
+        </section>
+        <!-- My Services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services"><span class="upcase">What I do</span></h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Design + Development</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Non dolore, soluta tempore odit nisi itaque aperiam amet
+                        placeat. Sapiente quidem et doloremque, maxime rerum cum
+                        atque doloribus suscipit delectus necessitatibus.</p>
+                </div> <!-- service -->
+                <div class="service">
+                    <h3>E-Commerce</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Cumque cupiditate ducimus necessitatibus! Eius iste,
+                        deleniti quidem dolorum quos nam molestias consequatur
+                        animi debitis iusto, recusandae vero fuga quisquam
+                        repudiandae doloremque!</p>
+                </div> <!-- service -->
+                <div class="service">
+                    <h3>Wordpress</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Facilis dolorem obcaecati accusantium laborum corporis
+                        voluptatem. Velit pariatur, veniam ratione explicabo
+                        doloribus rerum, et asperiores sint, ad quod non sequi
+                        dolore?</p>
+                </div> <!-- service -->
+            </div> <!-- services -->
+            <a href="#work" class="btn">My Work</a>
+
+        </section>
+        <!-- About me -->
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about"><span class="upcase">Who I am</span></h2>
+            <p class="section__subtitle section__subtitle--about"><strong><span class="upcase">Fullstack Developer</strong></span> <br/><span style="letter-spacing: 2px;">Based out of NYC</span></p>
+            <div class="about-me__body">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, dolore odit. Et quidem officia ipsa soluta quisquam totam culpa, nostrum molestiae ratione aliquid laudantium pariatur voluptas repellat provident nemo eum!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum omnis asperiores nihil alias, amet nobis non? Ad amet quos accusantium qui? Inventore veritatis optio perspiciatis obcaecati suscipit natus rerum repellendus.</p>
+            </div>
+
+            <img src="/img/prof2_sq.jpg" alt="profile 2 photo of anna" class="about-me__img">
+        </section>
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work"><span class="upcase">My work</span></h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+
+            <div class="portfolio">
+                
+                <!-- Portfolio item 01 -->
+                <a href="https://couponclips-anna.netlify.app/" class="portfolio__item"><img src="/img/couponclips.jpg" alt="coupon clips project" class="portfolio__img"></a>
+                <!-- Portfolio item 02 -->
+                <a href="https://stoic-jepsen-f0ca22.netlify.app/" class="portfolio__item"><img src="/img/cocktailhour.jpg" alt="cocktail hour project" class="portfolio__img"></a>
+                <!-- Portfolio item 03 -->
+                <a href="https://bedtimestories-anna.herokuapp.com/" class="portfolio__item"><img src="/img/bedtimestories.jpg" alt="bedtime stories project" class="portfolio__img"></a>
+                <!-- Portfolio item 04 -->
+                <a href="https://github.com/annamcheng/Outfit-of-The-Day" class="portfolio__item"><img src="/img/outfitoftheday.jpg" alt="outfit of the day project" class="portfolio__img"></a>
+                <!-- Portfolio item 05 -->
+                <a href="https://7obkn.csb.app/" class="portfolio__item"><img src="/img/annameredithmusic.jpg" alt="anna meredith music page project" class="portfolio__img"></a>
+
+            </div>
+        </section>
+        <!-- Footer -->
+        <footer class="footer">
+            <a href="mailto:acheng0086@gmail.com" class="footer__link">acheng0086@gmail.com</a>
+            <ul class="social-list">
+                    <li class="social-list__item"><a href="https://github.com/annamcheng"
+                            class="social-list__link">
+                            <i class="fab fa-github"></i></a></li>
+                     <li class="social-list__item"><a href="https://www.linkedin.com/in/anna-cheng/" class="social-list__link">
+                        <i class="fab fa-linkedin"></i></a></li>
+            </ul>
+        </footer>
+        <script src="/js/index.js" async defer></script>
+    </body>
+</html>
