@@ -384,6 +384,14 @@ list-style: none;
   max-width: 300px;
   margin: 0 auto;  */
 }
+@media (max-width: 600px){
+  .portfolio{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    max-width: 300px;
+    margin: 0 auto; 
+  }
+}
 
 .portfolio__item {
   background: var(--clr-dark);
