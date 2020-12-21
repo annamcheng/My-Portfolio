@@ -53,10 +53,11 @@
     <!-- PORTFOLIO INFO -->
     <section class="intro" id="home">
       <h1 class="section__title section__title--intro">
-        The title<strong>of my project</strong>
+        Cocktail Hour
       </h1>
       <p class="section__subtitle section__subtitle--intro">
-        <span class="upcase">A short subtitle</span>
+        <span><i>Contributers: Ben Higginbotham, <br/>Carlo Berardelli,<br/>Ian
+        Vitaga,<br/>Anna Cheng</i></span>
       </p>
       <img
         src="/img/cocktailhour.jpg"
@@ -67,29 +68,48 @@
 
     <div class="portfolio-item-individual">
       <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde sint
-        ipsam consequuntur quas dignissimos quibusdam veniam excepturi error!
-        Mollitia, veritatis possimus! A, culpa. Maxime, molestias neque.
-        Adipisci impedit vero ut.
+        Welcome to Cocktail Hour. Your go to destination for drink ideas!
+        <br /><br/>
+        Roles: Ben - Release Manager; Carlo - Product Manager; Ian - Lead
+        front-end dev; Anna - Lead back-end dev
       </p>
-      <img src="/img/" alt="portfolio details" />
+
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora,
-        perferendis ducimus fuga cupiditate magni soluta veritatis eligendi vel
-        dicta hic pariatur praesentium est, aspernatur quos quo ut consequatur
-        saepe. Ratione.
+        We wanted to make an app that would help people with their
+        alcoholic & non-alcoholic adventures. 
       </p>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora,
-        perferendis ducimus fuga cupiditate magni soluta veritatis eligendi vel
-        dicta hic pariatur praesentium est, aspernatur quos quo ut consequatur
-        saepe. Ratione.
+        This application is a full CRUD app that connects the React Client on the frontend to the Express API on the backend. There are two models on the backend: recipe.js and user.js. The recipe schema includes the drink name, ingredients and instructions. The user schema includes the username and password. We used JSON Web Token (JWT) that allows users to create a username and password to sign up and login. When user is logged in, they are able to view the drink recipes that they've previously created, and edit or delete them as well. 
+        </p>
+        
+        <p>A fun feature on this app is our random drink button. We used async await to on the back-end to fetch data from a 3rd party api called <a href="https://www.thecocktaildb.com/api.php">The Cocktail DB</a>. When the button is clicked, a random drink is generated on the page which includes the image of the drink, the name, ingredients and instructions.
       </p>
-    </div>
-    <div class="project-links">
-      <p>
-        <a href="" class="btn">Live Webpage</a>
-      </p>
+      <div class="project-links">
+        <p>
+          <a href="https://stoic-jepsen-f0ca22.netlify.app/" class="btn"
+            >Live Webpage</a
+          >
+        </p>
+        <p>
+          <a
+            href="https://github.com/bicycleben88/project_three_frontend"
+            class="btn"
+            >Github | Frontend</a
+          >
+        </p>
+        <p>
+          <a
+            href="https://github.com/bicycleben88/project_three_backend"
+            class="btn"
+            >Github | Backend</a
+          >
+        </p>
+        <img
+          src="/img/cropped/cocktail-3.png"
+          alt="cocktails cropped photo"
+          class="cropped-image"
+        />
+      </div>
     </div>
     <!-- Footer -->
     <footer class="footer">

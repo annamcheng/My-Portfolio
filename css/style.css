@@ -247,9 +247,12 @@ header {
 .intro {
   position: relative;
 }
-/* .intro__img{
+.intro__img{
     box-shadow: var(--bs);
-} */
+}
+#circle-image{
+  box-shadow: none;
+}
 /* .section__subtitle--intro{
     display: inline-block;
 } */
@@ -427,6 +430,10 @@ list-style: none;
   font-weight: var(--fw-bold);
 }
 
+/* Project Image */
+.cropped-image{
+    box-shadow: var(--bs);
+}
 /* FOOTER */
 
 .footer {
