@@ -71,10 +71,20 @@ strong {
   text-transform: uppercase;
   font-weight: var(--fw-bold);
   transition: transform 200ms ease-in-out;
+  width: 250px;
+  text-align: center;
   /* border-radius: 10px; */
+
 }
 .btn:hover {
   transform: scale(1.1);
+}
+
+.project-links{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  
 }
 /* TYPOGRAPHY */
 
