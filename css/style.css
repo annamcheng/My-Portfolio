@@ -248,11 +248,9 @@ header {
   position: relative;
 }
 .intro__img{
-    box-shadow: var(--bs);
+      box-shadow: none;
 }
-#circle-image{
-  box-shadow: none;
-}
+
 /* .section__subtitle--intro{
     display: inline-block;
 } */
